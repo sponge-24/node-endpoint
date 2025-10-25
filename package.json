@@ -1,0 +1,25 @@
+{
+  "name": "endpoint",
+  "version": "1.0.0",
+  "description": "Hello this is a simple node api enpoint",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sponge-24/node-endpoint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sponge-24/node-endpoint/issues"
+  },
+  "homepage": "https://github.com/sponge-24/node-endpoint#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
