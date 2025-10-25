@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/status', (req, res) => {
   res.json({
-    status: 'success',
+    status: 'OK',
     message: 'API is running',
     timestamp: new Date()
   });
